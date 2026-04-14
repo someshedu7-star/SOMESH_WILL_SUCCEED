@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Somesh Anil Bali | Personal Blog</title>
+  <meta name="description" content="Personal blog of Somesh Anil Bali, a 9th grader passionate about coding, development, football, piano, and fitness.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <header class="site-header">
+    <div class="brand-wrap">
+      <div class="brand">SB</div>
+      <div>
+        <p class="brand-kicker">Classic Personal Space</p>
+        <h1 class="brand-title">All About Somesh</h1>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#gym">Gym</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="./admin.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Personal Blog</p>
+        <h2>Somesh Anil Bali</h2>
+        <p class="hero-role">9th Grader • Tech Enthusiast • Future Engineer</p>
+        <p class="hero-text">
+          I'm a 9th grade student of Podar International School, Washim who loves coding, development, football, piano, and fitness.
+          I keep learning, building, and growing toward my dream of becoming an engineer.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">Connect With Me</a>
+          <a class="button secondary" href="#reviews">Leave a Review</a>
+        </div>
+      </div>
+      <div class="hero-card reveal delay-one">
+        <img src="./assets/profile.png" alt="Portrait of Somesh Anil Bali" class="profile-image">
+        <div class="hero-card-content">
+          <p class="mini-label">Current Focus</p>
+          <ul class="focus-list">
+            <li>Coding and development</li>
+            <li>Staying disciplined through gym</li>
+            <li>Learning from inspiring innovators</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section card reveal">
+      <p class="eyebrow">About Me</p>
+      <h2>Driven by curiosity and ambition</h2>
+      <p>
+        I'm a 9th grade student coming from a middle class family where everyone is well qualified.
+        That environment motivates me to keep aiming higher and become someone my family feels proud of.
+      </p>
+      <p>
+        Steve Jobs is one of my biggest inspirations because of his creativity, vision, and belief in building meaningful things.
+        I want to become an engineer and work on technology that makes a real difference.
+      </p>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <p class="eyebrow">Skills & Interests</p>
+      <h2>What I enjoy doing</h2>
+      <div class="grid four-up">
+        <article class="tile">
+          <h3>Coding</h3>
+          <p>I enjoy exploring programming and building new things step by step.</p>
+        </article>
+        <article class="tile">
+          <h3>Piano</h3>
+          <p>Playing piano helps me stay creative and focused.</p>
+        </article>
+        <article class="tile">
+          <h3>Football</h3>
+          <p>Football keeps me active and teaches teamwork and consistency.</p>
+        </article>
+        <article class="tile">
+          <h3>Gym</h3>
+          <p>Fitness is part of my routine and helps build discipline and confidence.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split reveal">
+      <article class="card">
+        <p class="eyebrow">Education</p>
+        <h2>Current Journey</h2>
+        <p>I'm currently a 9th grader and focused on learning, improving my skills, and building a strong future in tech.</p>
+      </article>
+      <article class="card accent-card">
+        <p class="eyebrow">Achievements</p>
+        <h2>Still collecting them</h2>
+        <p>I am at the start of my journey, working hard now so that strong achievements follow soon.</p>
+      </article>
+    </section>
+
+    <section id="gym" class="section reveal">
+      <p class="eyebrow">Gym Section</p>
+      <h2>Fitness and discipline</h2>
+      <div class="grid three-up gym-grid">
+        <article class="gallery-card image-card">
+          <img src="./assets/gym-1.jpeg" alt="Somesh gym photo one" class="gallery-image">
+          <div class="gallery-copy">
+            <span>Routine</span>
+            <p>Focused work in the gym helps me stay consistent and disciplined.</p>
+          </div>
+        </article>
+        <article class="gallery-card image-card">
+          <img src="./assets/gym-2.jpeg" alt="Somesh gym photo two" class="gallery-image">
+          <div class="gallery-copy">
+            <span>Progress</span>
+            <p>Every session teaches patience, effort, and long-term growth.</p>
+          </div>
+        </article>
+        <article class="gallery-card quote-card">
+          <span>Mindset</span>
+          <p>Strong habits build a strong future.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reviews" class="section reveal">
+      <p class="eyebrow">Reviews</p>
+      <h2>What people can say about me</h2>
+      <div class="reviews-layout">
+        <form id="review-form" class="card review-form">
+          <label>
+            Your name
+            <input type="text" name="name" maxlength="60" placeholder="Enter your name" required>
+          </label>
+          <label>
+            Rating
+            <select name="rating" required>
+              <option value="5">5 - Excellent</option>
+              <option value="4">4 - Very good</option>
+              <option value="3">3 - Good</option>
+              <option value="2">2 - Fair</option>
+              <option value="1">1 - Basic</option>
+            </select>
+          </label>
+          <label>
+            Your review
+            <textarea name="message" maxlength="300" rows="5" placeholder="Write something encouraging..." required></textarea>
+          </label>
+          <button class="button primary" type="submit">Save Review</button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+
+        <div>
+          <div id="review-list" class="review-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section card reveal">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's connect</h2>
+      <div class="contact-grid">
+        <a href="mailto:somesh.edu7@gmail.com" class="contact-item">
+          <span>Email</span>
+          <strong>somesh.edu7@gmail.com</strong>
+        </a>
+        <a href="https://www.instagram.com/somesh_bali_07/" class="contact-item" target="_blank" rel="noreferrer">
+          <span>Instagram</span>
+          <strong>@somesh_bali_07</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built for Somesh Anil Bali with a professional dark theme.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+  <script src="./ui-effects.js"></script>
+</body>
+</html>

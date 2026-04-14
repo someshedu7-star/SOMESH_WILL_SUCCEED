@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1776171930036,
+    "name": "Somesh Bali",
+    "message": "Demo Review! This Works 100%",
+    "rating": 5,
+    "createdAt": "2026-04-14T13:05:30.036Z",
+    "reply": {
+      "text": "Yes! Reply System Works Too!",
+      "author": "Somesh_Admin",
+      "createdAt": "2026-04-14T13:05:53.416Z"
+    }
+  }
+]
